@@ -1,0 +1,2 @@
+sudo cp libdarknet.so /usr/local/lib/
+gcc -Ofast -DGPU=1 -Iinclude -I/usr/local/cuda/include/ dn.c -o dn -ldarknet 

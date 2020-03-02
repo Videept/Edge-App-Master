@@ -1,0 +1,13 @@
+*.mp4
+*.jpg
+*.DS_Store
+*.pyc
+*.weights
+*.o
+*.so
+*.a
+/tmp
+/data
+android_client/app/build
+android_client/openCVLibrary343/build
+android_client/.idea
